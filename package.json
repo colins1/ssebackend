@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon  ./src/app.js",
+    "lint": "eslint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "husky": "^8.0.3",
+    "nodemon": "^2.0.19"
+  },
+  "type": "module"
+}
